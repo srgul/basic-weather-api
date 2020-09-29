@@ -8,6 +8,6 @@ request({
     if (error) {
         console.log(" API error! ");
     } else {
-        console.log(body.location.name + "'da hava sıcaklığı : " + body.current.temp_c + " C");
+        console.log(body.location.name + " is weather : " + body.current.temp_c + " C");
     }
 })
